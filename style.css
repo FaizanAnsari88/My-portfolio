@@ -1,0 +1,835 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+.body{
+    background-color: black;
+}
+
+/* navbarsection start */
+.navbar{
+    background-color: black;
+}
+.navbaritems{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+a.about{
+    color: white;
+}
+a.about:hover{
+    
+    color:aqua;
+    
+}
+
+/* navbarsectionend */
+
+/* home sectin start */
+.bgcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    
+  }
+  
+  .hey{
+    font-size: 50px;
+    color: aqua;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  .iam{
+    font-size: 70px;
+    color: aqua;
+    font-weight: bold;
+  }
+  .span{
+    color: white;
+    font-size: 70px;
+  
+  }
+  .web{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    
+  }
+  .front{
+    color:white;
+    font-size:23px;
+    font-weight: bold;
+  }
+  .html{
+    font-size: 25px;
+    color: aqua;
+    font-weight: bold;
+  
+  }
+  .rightimage{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 180px;
+    border: 5px solid aqua;
+    
+    
+   
+    
+    
+  }
+  .me{
+    width: 200px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: aqua;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+  }
+  .me2{
+    width: 300px;
+    margin-left: 20px;
+    font-size: 30px;
+    background-color: black;
+    color:aqua;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+    
+  }
+  
+  
+  .me:hover{
+    background-color: green;
+  }
+  .me2:hover{
+    background-color: green;
+  }
+/* home responsive mobile  start*/
+  @media screen and (min-width: 0px) and (max-width: 740px){
+
+  .bgcontainer{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  p.hey{
+    font-size: 25px;
+    color: aqua;
+    
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  h2.iam{
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+  }
+  h2 .span{
+    color: white;
+    font-size: 25px;
+  
+  }
+  p.web{
+    color: white;
+    font-size:13px;
+    font-weight: bold;
+    
+  }
+ p.front{
+    color: white;
+    font-size:15px;
+    font-weight: bold;
+  }
+  span.front{
+    color: white;
+    font-size:10px;
+    font-weight: bold;
+  }
+  p.html{
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+  
+  }
+  span.html{
+    font-size: 14px;
+    color:  aqua;
+    font-weight: bold;
+  
+  }
+  img.rightimage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+    margin-top: 80px;
+  }
+  button.me{
+    width: fit-content;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+  }
+  button.me2{
+    width: fit-content;
+    margin-left: 20px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 20px;
+    
+    
+  }
+  .togler{
+    background-color: white;
+  }
+
+  /* about section start phone */
+
+  .aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div.leftarm{
+    margin-top: 10px;
+}
+div.rightarm{
+    margin-top: 50px;
+}
+.know{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    
+}
+.spanabout{
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+    
+}
+.everyone{
+    color: white;
+  font-size:20px;
+  font-weight: bold;
+}
+.apart{
+    color: aqua;
+  font-size:22px;
+  font-weight: bold; 
+}
+.games{
+    color: white;
+  font-size:20px;
+  font-weight: bold; 
+}
+.htmll{
+    color: #854ce6;
+    font-size:22px;
+    font-weight: bold;
+}
+.rightarm{
+    width: 100%;
+    
+}
+div.leftarm{
+    width: 100%;
+}
+img.rightarmimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+    box-shadow: 3px 3px 2px 3px  white;
+    
+}
+.aboutus{
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+    color: white;
+}
+span{
+    color: aqua;
+}
+
+/* skills section start mobile */
+
+p.paragraph{
+  font-size: 20px;
+}
+div.maindiv{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  
+}
+div.icons{
+  width: 100%;
+  border: 3px solid gray;
+  height: 200px;
+  border-radius: 20px;
+ 
+}
+div.righticon{
+    width: 100%;
+    border: 3px solid gray;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+h3.Front-end{
+  color: white;
+  /* margin-left: 30%;
+  margin-top: 50px; */
+  text-align: center;
+  font-size: 30px;
+}
+div i{
+  font-size: 150%;
+  color: aqua;
+  display: flex;
+  justify-content: space-around;
+ 
+  /* margin-left: 16%; */
+
+}
+i.bootstrap{
+  margin-left: 50px;
+ 
+}
+i span.logowordss{
+  margin-left: 20px;
+  font-size: 12px;
+  color: white;
+ 
+}
+
+i span.logoword{
+  font-size: 10px;
+  color: white;
+ 
+}
+span.logowords{
+  font-size: 10px;
+  color: white;
+  
+ 
+}
+span.logowordss{
+  margin-left: 10px;
+}
+i.bootstrap{
+  
+  margin-left: 5px;
+}
+i.logowordsss{
+  margin-left: 50px;
+}
+
+h3.other{
+ color: white; 
+ /* margin-left: 50%;
+ margin-top:10%; */
+ text-align: center;
+ font-size: 30px;
+  
+}
+.icons{
+  width: 40%;
+  border: 3px solid gray;
+  height: 300px;
+  border-radius: 20px;
+}
+img.mongo{
+  width: 100px;
+  margin-left: 50px;
+}
+ /* education section start for mobile */
+
+ .seconddiv{
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+ }
+ div.collegefolder{
+  width: 100%;
+  height: 550px;
+ }
+ div.collegefolder1{
+  width: 100%;
+  height: 350px;
+
+ }
+ h2.skillss{
+  margin: 30px;
+  font-size: 35px;
+ }
+ /* education section end for mobile */
+ /* project section start for mobile */
+
+ div.project1{
+  display: flex;
+  flex-direction: column;
+ }
+ /* project section end for mobile */
+
+/* contact section start for mobile */
+
+div.conatine6{
+
+width: fit-content;
+align-items: center;
+margin-left: 5px;
+
+}
+div.form{
+  width: 100%;
+}
+
+input{
+  padding-left: 10px;
+}
+label{
+  padding-left: 10px;
+ 
+}
+/* contact section end for mobile */
+ 
+}
+
+  /* home sectin end */
+
+  /* aboutsection start */
+.aboutus{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.leftarm{
+    margin-top: 100px;
+}
+.rightarm{
+    margin-top: 100px;
+    align-items: center;
+}
+.know{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    
+}
+.spanabout{
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+    
+}
+.everyone{
+    color: white;
+  font-size:20px;
+  font-weight: bold;
+}
+.apart{
+    color: aqua;
+  font-size:22px;
+  font-weight: bold; 
+}
+.games{
+    color: white;
+  font-size:20px;
+  font-weight: bold; 
+}
+.htmll{
+    color: #854ce6;
+    font-size:22px;
+    font-weight: bold;
+}
+
+.leftarm{
+    width: 50%;
+}
+.rightarmimage{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 5px 5px  gray;
+    
+}
+.aboutuss{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.containers{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+span{
+    color: aqua;
+}
+
+/* about section end */
+
+
+/* <!-- skills section --> */
+.skillss{
+    text-align: center;
+    color: aqua;
+    margin-top: 140px;
+    font-size: 350%;
+    letter-spacing: 5px;
+    
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.paragraph{
+    color: white;
+    font-size: 190%;
+    margin-top:50px;
+    text-align: center;
+}
+.Front-end{
+    color: white;
+    /* margin-left: 30%;
+    margin-top: 50px; */
+    text-align: center;
+    font-size: 50px;
+}
+i{
+    font-size: 300%;
+    color: aqua;
+    margin: 10px;
+    padding-left: 10px;
+    /* margin-left: 16%; */
+
+}
+.logoword{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+.logowords{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+   
+}
+.logowordsss{
+    margin-left: 90px;
+    color: aqua;
+}
+span.logowordss{
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.other{
+   color: white; 
+   /* margin-left: 50%;
+   margin-top:10%; */
+   text-align: center;
+   font-size: 50px;
+    
+}
+.icons{
+    width: 40%;
+    border: 3px solid gray;
+    height: 300px;
+    border-radius: 20px;
+}
+i.bootstrap{
+  font-size: 30px;
+ 
+  
+}
+.righticon{
+    width: 40%;
+    border: 3px solid gray;
+    height: 300px;
+    border-radius: 20px;
+}
+.mongo{
+  width: 150px;
+  margin-left: 80px;
+}
+
+
+/* education section start */
+
+/* <!-- Education section start --> */
+.seconddiv{
+  display:flex;
+  justify-content: center;
+  
+}
+.collegefolder{
+ width: 50%;
+  border: 3px solid gray;
+  height: 300px;
+  border-radius: 20px;
+  
+}
+.siesimage{
+  height: 100px;
+  width: 150px;
+ 
+  margin-top: 10px;
+  border-radius: 5px;
+  position: absolute;
+ 
+}
+.siesname{
+  color: white;
+  padding-left:150px ;
+ 
+  margin-top: 10px;
+  
+ 
+
+
+}
+.degree{
+  color: white;
+  padding-left: 150px;
+  
+
+}
+.date{
+  color: white;
+  padding-left: 150px;
+  
+}
+.grade{
+  color: white;
+  padding-left: 10px;
+ 
+
+}
+.desc{
+  color: white;
+  padding-left: 10px;
+  padding-bottom:1px ;
+
+}
+/* -------- */
+.thirddiv{
+  display:flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.collegefolder1{
+  width: 50%;
+  border: 3px solid gray;
+  height: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+.bnnimage{
+  height: 80px;
+  width: 90px;
+  margin-left: 14px;
+  margin-top: 14px;
+  border-radius: 5px;
+  position: absolute;
+
+}
+.BNNname{
+  color: white;
+  padding-left:120px ;
+ 
+
+}
+.degree1{
+  color: white;
+  padding-left: 120px;
+  padding-bottom:1px ;
+
+}
+.date1{
+  color: white;
+  padding-left: 120px;
+ 
+}
+.desc1{
+  margin-top: 30px;
+  color: white;
+  padding-left: 10px;
+}
+/* education section end */
+
+/* project section start */
+/* <!-- Project section start --> */
+.project1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#title1{
+  background-color: white;
+  width: 20%;
+  height: 5px;
+  color: white;
+  text-align: center;
+  margin-left: 40%;
+}
+.card{
+  margin: 20px;
+  box-shadow: 0px 5px 4px 5px rgb(4, 255, 255);
+}
+.projectimage{
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* footer section start */
+footer{
+  background-color:rgb(19, 15, 15);
+  height: 70px;
+  color: white;
+  text-align: center;
+  word-spacing: 10px;
+  font-size: large;
+  padding: 12px 12px;
+  margin-top: 30px;
+}
+
+/* contact section start */
+
+/* contact section start */
+.contactme{
+  margin: 20px;
+  margin-left: 40px;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  color: aqua;
+  margin-top: 100px;
+  
+}
+
+#contact{
+  width: 40%;
+  margin-left: 30%;
+  color: white;
+  
+}
+
+.conatine6{
+  height: 600px;
+  width: 100%;
+  border-radius: 3px solid gray;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+  
+
+}
+#sorc{
+  height: 400px;
+  width: 100%;
+}
+.form{
+  width: fit-content;
+  border: 3px solid aqua;
+  height: fit-content;
+  border-radius: 20px;
+
+ 
+ text-align: center;
+ background-size: 100% 100%;
+ color: black;
+}
+label{
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+ 
+ 
+
+  
+}
+.input1{
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+ 
+ 
+}
+input{
+  padding-left: 10px;
+}
+textarea{
+  padding-left: 10px;
+  font-size: 20px;
+  
+}
+#text{
+  border: 2px solid white;
+  background-color: black;
+  width: 80%;
+  border-radius: 10px;
+} 
+.button1{
+  font-size: larger;
+  background-color: black;
+  border: 3px solid aqua;
+  color: aqua;
+  margin-top: 12px;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px ;
+  margin: 10px;
+  
+}
+.button1:hover{
+  background-color: aqua;
+  color: black;
+  font:bold;
+  
+}
